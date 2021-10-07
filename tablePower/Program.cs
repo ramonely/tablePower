@@ -66,7 +66,7 @@ namespace tablePower
                 {
                     new1 = true;
                     Console.WriteLine("Please enter only yes or no: ");
-                    answer = Console.ReadLine();
+                    answer = Console.ReadLine().ToLower();
                 }
             }
         }
